@@ -1,0 +1,128 @@
+variable,variable_type,unit,explanation
+patient_id,Patient characteristics,,Patient ID
+cov_test,COVID-19 Test Results,,COVID-19 Test Results
+number_video_files,Patient characteristics,,Number of video files available for this patient
+pat_weight,Patient characteristics,kg,Weight
+pat_sex,Patient characteristics,,Biological Sex
+pat_height,Patient characteristics,cm,Height
+pat_bmi,Patient characteristics,,BMI
+pat_age,Patient characteristics,years,Patient age
+respiratory_rate,Patient characteristics,/min,Respiratory Rate
+pulse,Patient characteristics,/min,Pulse
+patient_symp#Wheezing,Patient characteristics,binary,Symptoms-Wheezing
+patient_symp#Vomitting,Patient characteristics,binary,Symptoms-Vomitting
+patient_symp#Sore_throat,Patient characteristics,binary,Symptoms-Sore throat
+patient_symp#Skin_rash,Patient characteristics,binary,Symptoms-Skin rash
+patient_symp#Running_nose,Patient characteristics,binary,Symptoms-Running nose
+patient_symp#Other,Patient characteristics,binary,Symptoms-Other
+patient_symp#Nausea,Patient characteristics,binary,Symptoms-Nausea
+patient_symp#Muscle_pain,Patient characteristics,binary,Symptoms-Muscle pain
+patient_symp#Lymphadenopathy,Patient characteristics,binary,Symptoms-Lymphadenopathy
+patient_symp#Joint_pain,Patient characteristics,binary,Symptoms-Joint pain
+patient_symp#Headache,Patient characteristics,binary,Symptoms-Headache
+patient_symp#Fever,Patient characteristics,binary,Symptoms-Fever
+patient_symp#Fatigue,Patient characteristics,binary,Symptoms-Fatigue
+patient_symp#Earache,Patient characteristics,binary,Symptoms-Earache
+patient_symp#Dyspnea,Patient characteristics,binary,Symptoms-Dyspnea
+patient_symp#Diarrhea,Patient characteristics,binary,Symptoms-Diarrhea
+patient_symp#Decreased_consciousness,Patient characteristics,binary,Symptoms-Decreased consciousness
+patient_symp#Coughing,Patient characteristics,binary,Symptoms-Coughing
+patient_symp#Confusion,Patient characteristics,binary,Symptoms-Confusion
+patient_symp#Chest_pain,Patient characteristics,binary,Symptoms-Chest pain
+patient_symp#AnosmiaHyposmia,Patient characteristics,binary,Symptoms-AnosmiaHyposmia
+patient_symp#AgeusiaDysgeusia,Patient characteristics,binary,Symptoms-AgeusiaDysgeusia
+patient_symp#Abdominal_pain,Patient characteristics,binary,Symptoms-Abdominal pain
+vent_dep#Yes,Patient characteristics,binary,Ventilation-Yes
+vent_dep#No,Patient characteristics,binary,Ventilation-No
+dx_his_smoke,Patient characteristics,,History of smoking
+smok_years,Patient characteristics,,Years of smoking
+smok_packy_packd,Patient characteristics,,Smoking: packyears/packs a day
+oxygen_saturation_without_ox,Patient characteristics,%,Blood oxygen saturation without oxygen therapy
+oxygen_saturation_with_ox,Patient characteristics,%,Blood oxygen saturation with oxygen therapy
+oxygen_liter,Patient characteristics,liters oxygen/minute,Oxygen Liters
+oth_comorbidities#Stroke,Patient characteristics,binary,Comorbidities-Stroke
+oth_comorbidities#Renal_disease,Patient characteristics,binary,Comorbidities-Renal disease
+oth_comorbidities#None_of_the_above,Patient characteristics,binary,Comorbidities-None of the above
+oth_comorbidities#Neurological_condition,Patient characteristics,binary,Comorbidities-Neurological condition
+oth_comorbidities#Malignancy,Patient characteristics,binary,Comorbidities-Malignancy
+oth_comorbidities#Liver_disease,Patient characteristics,binary,Comorbidities-Liver disease
+oth_comorbidities#Hypertonia,Patient characteristics,binary,Comorbidities-Hypertonia
+oth_comorbidities#History_of_drug_or_alcohol_abuse,Patient characteristics,binary,Comorbidities-History of drug or alcohol abuse
+oth_comorbidities#Diabetes_Mellitus,Patient characteristics,binary,Comorbidities-Diabetes Mellitus
+oth_comorbidities#Chronic_cardiovascular_disease,Patient characteristics,binary,Comorbidities-Chronic cardiovascular disease
+oth_comorbidities#Autoimmune_disease,Patient characteristics,binary,Comorbidities-Autoimmune disease
+oth_comorbidities#Adipositas_BMI_30,Patient characteristics,binary,Comorbidities-Adipositas BMI 30
+oth_comorbidities#AIDSHIV,Patient characteristics,binary,Comorbidities-AIDSHIV
+hist_pulm_dis,Patient characteristics,,History of pulmonary diseases
+emerg_case#Yes,Patient characteristics,binary,Yes
+emerg_case#No,Patient characteristics,binary,No
+curr_medis#no_medication,Patient characteristics,binary,no medication
+body_temperature,Patient characteristics,°C,Body Temperature
+applying_pulm_dis#Tuberculosis,Patient characteristics,binary,Tuberculosis
+applying_pulm_dis#Pneumothorax,Patient characteristics,binary,Pneumothorax
+applying_pulm_dis#Pneumonia,Patient characteristics,binary,Pneumonia
+applying_pulm_dis#Other,Patient characteristics,binary,Other
+applying_pulm_dis#Interstitial_Lung_Disease,Patient characteristics,binary,Interstitial Lung Disease
+applying_pulm_dis#Dyspnea,Patient characteristics,binary,Dyspnea
+applying_pulm_dis#Diffuse_Parenchymal_Lung_Disease,Patient characteristics,binary,Diffuse Parenchymal Lung Disease
+applying_pulm_dis#Cystic_fibrosis,Patient characteristics,binary,Cystic fibrosis
+applying_pulm_dis#COPD,Patient characteristics,binary,COPD
+applying_pulm_dis#Asthma_bronchiale,Patient characteristics,binary,Asthma bronchiale
+application_method#other,Patient characteristics,binary,other
+application_method#mask,Patient characteristics,binary,mask
+ward_transfer_1,Outcome,,Was a ward transfer necessary?
+stay_mcu,Outcome,,Right after ER admission was the patient admitted to the Medium Care Unit?
+stay_icu,Outcome,,Right after ER admission was the patient admitted to the Instensive Care Unit?
+stay_genward,Outcome,,Right after ER admission was the patient admitted to the general ward?
+oxygen_thepary_2,Outcome,,Was a second oxygen therapy method applied?
+oxygen_thepary,Outcome,,Was oxygen therapy applied during hospital admission
+oxygen_application_method_2#sonde_tube,Outcome,binary,oxygen 2 applied with sonde tube
+oxygen_application_method_2#mask,Outcome,binary,oxygen 2 applied with mask
+oxygen_application_method_1#other,Outcome,binary,oxygen 1 applied with other
+oxygen_application_method_1#mask,Outcome,binary,oxygen 1 applied with mask
+outcome_status_d7,Outcome,,Outcome status DAY 7
+outcome_status_d5,Outcome,,Outcome status DAY 5
+outcome_status_d30,Outcome,,Outcome status DAY 30
+outcome_status_d3,Outcome,,Outcome status DAY 3
+outcome_status_d1,Outcome,,Outcome status DAY 1
+outcome_status_d0,Outcome,,Outcome status DAY 0
+los_totaladmission,Outcome,days,Total Length of Stay (LOS)
+los_gw,Outcome,hours,LOS general ward
+los_ICU,Outcome,hours,LOS Intensive Care Unit
+duration_oxy,Outcome,,Duration oxygen therapy
+discharge_to,Outcome,,Discharge from hospital to
+clin_diagn#healthy_lung,Outcome,binary,Diagnosis-healthy lung
+clin_diagn#bacterial_pneumonia,Outcome,binary,Diagnosis-bacterial pneumonia
+clin_diagn#COVID19_pneumonia,Outcome,binary,Diagnosis-COVID19 pneumonia
+clin_diagn#other_viral_pneumonia,Outcome,binary,Diagnosis-other viral pneumonia
+clin_diagn#other_lung_disease,Outcome,binary,Diagnosis-other lung disease
+Transfer_1_to,Outcome,,Transfer 1 to
+incl_crit#sore_throat,Inclusion Criteria,binary,sore throat
+incl_crit#shortness_of_breath_or_difficulty_breathing,Inclusion Criteria,binary,shortness of breath or difficulty breathing
+incl_crit#runny_nose,Inclusion Criteria,binary,Inclusion-runny nose
+incl_crit#loss_of_taste,Inclusion Criteria,binary,Inclusion-loss of taste
+incl_crit#loss_of_smell,Inclusion Criteria,binary,Inclusion-loss of smell
+incl_crit#fever_or_chills,Inclusion Criteria,binary,Inclusion-fever or chills
+incl_crit#cough,Inclusion Criteria,binary,Inclusion-cough
+incl_crit#congestion,Inclusion Criteria,binary,Inclusion-congestion
+dur_symp,Inclusion Criteria,days,Duration of symptoms (number of DAYS)
+test_meth_covid#PCR_rapid_test,COVID-19 Test Results,binary,PCR rapid test
+test_meth_covid#PCR_normal,COVID-19 Test Results,binary,PCR normal
+PCR_CT,COVID-19 Test Results,,COVID-19 PCR CT value
+sys_bp,Blood pressure,,Systolic pressure
+dias_bp,Blood pressure,,Diastolic pressure
+trombocytes_find,Complete blood count,10E9/l,Trombocytes
+pO2_find,Complete blood count,kPa,pO2
+pH_find,Complete blood count,,pH
+pCO2_find,Complete blood count,kPa,pCO2
+leucocytes_find,Complete blood count,10E9/l,Leucocytes
+hg_find,Complete blood count,mmol/l,Hemoglobin
+excess_find,Complete blood count,mmol/l,Base excess
+Rh_factor,Complete blood count,,Rhesus factor
+LDH_find,Complete blood count,U/l,LDH
+HCO3_find,Complete blood count,mmol/l,HCO3
+CRP,Complete blood count,mg/L,CRP
+lymphocytes,Complete blood count,,lymphocytes
+absolute_lymphocytes,Complete blood count,,absolute lymphocytes
+C19_vacc,Additional Data,,Covid-19 vaccinaction?
+Blood_type,Additional Data,,Blood type
