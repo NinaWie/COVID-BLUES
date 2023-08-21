@@ -1,9 +1,9 @@
 variable,variable_type,unit,explanation
 patient_id,Patient characteristics,,Patient ID
-cov_test,COVID-19 Test Results,,COVID-19 Test Results
+cov_test,COVID-19 Test Results,,COVID-19 Test Results (1=positive)
 number_video_files,Patient characteristics,,Number of video files available for this patient
 pat_weight,Patient characteristics,kg,Weight
-pat_sex,Patient characteristics,,Biological Sex
+pat_sex,Patient characteristics,,Biological Sex (0=female, 1=male)
 pat_height,Patient characteristics,cm,Height
 pat_bmi,Patient characteristics,,BMI
 pat_age,Patient characteristics,years,Patient age
@@ -34,7 +34,7 @@ patient_symp#AgeusiaDysgeusia,Patient characteristics,binary,Symptoms-AgeusiaDys
 patient_symp#Abdominal_pain,Patient characteristics,binary,Symptoms-Abdominal pain
 vent_dep#Yes,Patient characteristics,binary,Ventilation-Yes
 vent_dep#No,Patient characteristics,binary,Ventilation-No
-dx_his_smoke,Patient characteristics,,History of smoking
+dx_his_smoke,Patient characteristics,,History of smoking (0=No, 1=Yes-former, 2=Yes-current)
 smok_years,Patient characteristics,,Years of smoking
 smok_packy_packd,Patient characteristics,,Smoking: packyears/packs a day
 oxygen_saturation_without_ox,Patient characteristics,%,Blood oxygen saturation without oxygen therapy
@@ -80,12 +80,12 @@ oxygen_application_method_2#sonde_tube,Outcome,binary,oxygen 2 applied with sond
 oxygen_application_method_2#mask,Outcome,binary,oxygen 2 applied with mask
 oxygen_application_method_1#other,Outcome,binary,oxygen 1 applied with other
 oxygen_application_method_1#mask,Outcome,binary,oxygen 1 applied with mask
-outcome_status_d7,Outcome,,Outcome status DAY 7
-outcome_status_d5,Outcome,,Outcome status DAY 5
-outcome_status_d30,Outcome,,Outcome status DAY 30
-outcome_status_d3,Outcome,,Outcome status DAY 3
-outcome_status_d1,Outcome,,Outcome status DAY 1
-outcome_status_d0,Outcome,,Outcome status DAY 0
+outcome_status_d7,Outcome,,Outcome status DAY 7 (0: ICU, 1: hospitalised, 2: discharged, 3: dead)
+outcome_status_d5,Outcome,,Outcome status DAY 5 (0: ICU, 1: hospitalised, 2: discharged, 3: dead)
+outcome_status_d30,Outcome,,Outcome status DAY 30 (0: ICU, 1: hospitalised, 2: discharged, 3: dead)
+outcome_status_d3,Outcome,,Outcome status DAY 3 (0: ICU, 1: hospitalised, 2: discharged, 3: dead)
+outcome_status_d1,Outcome,,Outcome status DAY 1 (0: ICU, 1: hospitalised, 2: discharged, 3: dead)
+outcome_status_d0,Outcome,,Outcome status DAY 0 (0: ICU, 1: hospitalised, 2: discharged, 3: dead)
 los_totaladmission,Outcome,days,Total Length of Stay (LOS)
 los_gw,Outcome,hours,LOS general ward
 los_ICU,Outcome,hours,LOS Intensive Care Unit
