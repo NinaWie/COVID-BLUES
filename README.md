@@ -6,6 +6,9 @@ The dataset comprises lung ultrasound recordings at six BLUE points for each pat
 
 ### Lung ultrasound videos
 
+<img align="right" src=https://raw.githubusercontent.com/NinaWie/BLUS-dataset/main/.github/images/sample_video.gif >
+
+
 Our dataset contains a set of lung ultrasound videos that were recorded in a standardized setting. All recordings were conduced with a Philips Lumify US device with a convex probe. The videos show one position for 60 - 100 frames. In contrast to other ultrasound datasets, the US videos were taken according to the standard BLUE protocol by [*Lichtenstein (2014)*](https://annalsofintensivecare.springeropen.com/articles/10.1186/2110-5820-4-1), where six points (three for each lung) are scanned. This leads to 6 videos per patient. Since some points could not be scanned for individual patients, there are sometimes less videos per patient, resulting in a total of 362 videos corresponding to 31,746 frames. The videos are labeled according to the schema `patient_<PATIENT-ID>_<BLUEPOINT>`, e.g. `patient_1_L3.mp4`, where the blue points are denoted as L1, L2, L3 (left lung), R1, R2, R3 (right lung). 
 In some cases, two videos are available for the same blue point. These cases are labeled `patient_<PATIENT-ID>_<BLUEPOINT_2>`; see for example `patient_15_L2_2.mp4`.
 
