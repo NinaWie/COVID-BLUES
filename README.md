@@ -10,6 +10,8 @@ Our dataset contains a set of lung ultrasound videos that were recorded in a sta
 
 `patient_<PATIENT-ID>_<BLUEPOINT>`, e.g. `patient_1_L3.mp4`, where the blue points are denoted as L1, L2, L3 (left lung), R1, R2, R3 (right lung). 
 
+In some cases, two videos are available for the same blue point. These cases are labeled `patient_<PATIENT-ID>_<BLUEPOINT_2>`; see for example `patient_15_L2_2.mp4`.
+
 All videos are available as `.mp4` files in the folder [lus_videos](lus_videos).
 
 ### Clinical variables
