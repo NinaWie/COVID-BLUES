@@ -1,13 +1,13 @@
-# Bluepoint Lung UltraSound (BLUS) dataset
+# COVID Bluepoint Lung UltraSound (BLUeS) dataset
 
-The **BLUS** (say: "Blues") dataset contains bluepoint-specific lung ultrasound videos recorded in a prospective study on COVID-19 suspects between February and May 2021. The study included 63 patients (33 COVID-positive and 30 COVID-negative), with the inclusion criteria being symptoms of a lung infection. 
+The **COVID-BLUeS** dataset contains bluepoint-specific lung ultrasound videos recorded in a prospective study on COVID-19 suspects between February and May 2021. The study included 63 patients (33 COVID-positive and 30 COVID-negative), with the inclusion criteria being symptoms of a lung infection. 
 
 The dataset comprises lung ultrasound recordings at six BLUE points for each patient, a database of clinical variables, and severity assessment by medical experts. These parts are described more in detail in the following:
 
 ### Lung ultrasound videos
 
 <p align="center">
-  <img src=https://github.com/NinaWie/BLUS-dataset/blob/main/sample_video.gif alt="Sample LUS video">
+  <img src=https://github.com/NinaWie/COVID-BLUeS-dataset/blob/main/sample_video.gif alt="Sample LUS video">
 </p>
 
 
@@ -29,12 +29,12 @@ The medical experts further noted whether B-lines and / or A-lines are visible i
 The severity scores and B-line/A-line informaiton are provided *per video* in the file [severity.csv](severity.csv). 
 
 ## License
-The BLUS dataset is available via the **CC BY-ND 4.0** [license](https://creativecommons.org/licenses/by-nd/4.0/).
+The COVID-BLUeS dataset is available via the **CC BY-ND 4.0** [license](https://creativecommons.org/licenses/by-nd/4.0/).
 
 ## Attribution & Citation
 The dataset was recorded by **Maastricht University Medical Center (UMC+)** in the Netherlands. 
 
-If you use the BLUS dataset in your research, please cite the following:
+If you use the COVID-BLUeS dataset in your research, please cite the following:
 
 (Citation follows)
 ```bib
