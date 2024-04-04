@@ -31,6 +31,9 @@ The severity scores and B-line/A-line informaiton are provided *per video* in th
 ## License
 The COVID-BLUES dataset is available via the **CC BY-NC-ND 4.0** [license](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
+## Related dataset
+If you are looking for more, similar data, have a look at the [POCUS dataset](https://github.com/jannisborn/covid19_ultrasound) which contains >200 videos collected from various public sources and divided in three categories (COVID-19, bacterial pneumonia, healthy).
+
 ## Attribution & Citation
 The dataset was recorded by **Maastricht University Medical Center (UMC+)** in the Netherlands. 
 
