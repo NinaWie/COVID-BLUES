@@ -1,6 +1,6 @@
 # COVID Bluepoint Lung Ultrasound (BLUES) dataset
 
-The **COVID-BLUES** dataset contains bluepoint-specific lung ultrasound videos recorded in a prospective study on COVID-19 suspects between February and May 2021. The study included 63 patients (33 COVID-positive and 30 COVID-negative), with the inclusion criteria being symptoms of a lung infection. 
+The **COVID-BLUES** dataset contains bluepoint-specific lung ultrasound videos recorded in a prospective study on COVID-19 suspects between February and May 2021. The study included 63 patients (33 COVID-positive and 30 COVID-negative), with the inclusion criteria being symptoms of a lung infection. The findings of the study and a description of the dataset have been published in [Wiedemann et al. (2025), *IEEE Journal of Biomedical and Health Informatics*](https://ieeexplore.ieee.org/abstract/document/10903196). Please [cite](#citation) that paper if you use this data. 
 
 The dataset comprises lung ultrasound recordings at six BLUE points for each patient, a database of clinical variables, and severity assessment by medical experts. These parts are described more in detail in the following:
 
@@ -34,11 +34,21 @@ The COVID-BLUES dataset is available via the **CC BY-NC-ND 4.0** [license](https
 ## Related dataset
 If you are looking for more, similar data, have a look at the [POCUS dataset](https://github.com/jannisborn/covid19_ultrasound) which contains >200 videos collected from various public sources and divided in three categories (COVID-19, bacterial pneumonia, healthy).
 
-## Attribution & Citation
+## Citation
 The dataset was recorded by **Maastricht University Medical Center (UMC+)** in the Netherlands. 
 
 If you use the COVID-BLUES dataset in your research, please cite the following:
 
-(Citation follows)
 ```bib
+@article{wiedemann2025covid,
+  author={Wiedemann, Nina and Boer, Dianne de Korte-de and Richter, Matthias and van de Weijer, Sjors and Buhre, Charlotte and Eggert, Franz A. M. and Aarnoudse, Sophie and Grevendonk, Lotte and Röber, Steffen and Remie, Carlijn M.E. and Buhre, Wolfgang and Henry, Ronald and Born, Jannis},
+  journal={IEEE Journal of Biomedical and Health Informatics}, 
+  title={COVID-BLUeS - A Prospective Study on the Value of AI in Lung Ultrasound Analysis}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={COVID-19;Artificial intelligence;Videos;Lungs;Ultrasonic imaging;Analytical models;Pathology;Medical diagnostic imaging;Data models;Training;Lung ultrasound;computer vision;COVID-19},
+  doi={10.1109/JBHI.2025.3543686}
+}
 ```
