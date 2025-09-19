@@ -45,9 +45,9 @@ If you use the COVID-BLUES dataset in your research, please cite the following:
   journal={IEEE Journal of Biomedical and Health Informatics}, 
   title={COVID-BLUeS - A Prospective Study on the Value of AI in Lung Ultrasound Analysis}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-12},
+  volume={29},
+  number={9},
+  pages={6301-6310},
   keywords={COVID-19;Artificial intelligence;Videos;Lungs;Ultrasonic imaging;Analytical models;Pathology;Medical diagnostic imaging;Data models;Training;Lung ultrasound;computer vision;COVID-19},
   doi={10.1109/JBHI.2025.3543686}
 }
