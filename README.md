@@ -34,13 +34,13 @@ The severity scores and B-line/A-line informaiton are provided *per video* in th
 
 The dataset is also available on Huggingface [here](https://huggingface.co/datasets/jannisborn/COVID-BLUES/tree/main).
 Install requirements:
-```
+```bash
 pip install datasets==3.5.0
 pip install av
 pip install torchvision
 ```
 Access dataset with: 
-```
+```py
 from datasets import load_dataset
 dataset = load_dataset("jannisborn/COVID-BLUES", split="train")
 # Select one video
