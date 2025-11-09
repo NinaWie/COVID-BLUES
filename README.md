@@ -4,6 +4,7 @@ The **COVID-BLUES** dataset contains bluepoint-specific lung ultrasound videos r
 
 The dataset comprises lung ultrasound recordings at six BLUE points for each patient, a database of clinical variables, and severity assessment by medical experts. These parts are described more in detail in the following:
 
+
 ### Lung ultrasound videos
 
 <p align="center">
@@ -27,6 +28,31 @@ Last, two medical experts rated the severity of the lung infection visible on th
 
 The medical experts further noted whether B-lines and / or A-lines are visible in the video.
 The severity scores and B-line/A-line informaiton are provided *per video* in the file [severity.csv](severity.csv). 
+
+
+## Huggingface
+
+The dataset is also available on Huggingface [here](https://huggingface.co/datasets/jannisborn/COVID-BLUES/tree/main).
+Install requirements:
+```
+pip install datasets==3.5.0
+pip install av
+pip install torchvision
+```
+Access dataset with: 
+```
+from datasets import load_dataset
+dataset = load_dataset("jannisborn/COVID-BLUES", split="train")
+# Select one video
+dataset[0]["video"] # torchvision VideoReader
+
+# Load clinical variables
+variables = load_dataset("jannisborn/COVID-BLUES", data_files="clinical_variables.csv")["train"]
+# Load severity scores
+severity = load_dataset("jannisborn/COVID-BLUES", data_files="severity.csv")["train"]
+```
+
+
 
 ## License
 The COVID-BLUES dataset is available via the **CC BY-NC-ND 4.0** [license](https://creativecommons.org/licenses/by-nc-nd/4.0/).
